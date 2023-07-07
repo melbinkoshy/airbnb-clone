@@ -1,0 +1,102 @@
+* {
+  box-sizing: border-box;
+  
+}
+body{
+  margin: 0;
+  font-family: Poppins;
+
+}
+nav{
+  display:flex;
+  height:70px;
+  padding: 20px 36px;
+  box-shadow: 0px 3px 7px rgba(0, 0, 0, 0.1);
+}
+
+.gray{
+  color: gray;
+}
+
+.bold{
+  font-weight: bold;
+}
+
+.nav-logo{
+  height: 25px;
+  width:82px;
+}
+.hero{
+  display: flex;
+  flex-direction: column;
+  margin:10px 50px;
+}
+
+.hero-image{
+    align-self: center;
+    margin-top: 30px;
+    max-width: 800px;
+}
+.hero-content{
+
+  /* margin-left: 36px; */
+  margin-top: 30px;
+}
+.title{
+  font-size: 36px;
+  margin: 0;
+}
+.description{
+  margin: 0;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+.card-array{
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+  margin-top: 40px;
+  margin-left: 50px;
+  gap: 20px;
+  flex-wrap: nowrap;
+  /* justify-content: center; */
+}
+.card{
+  width: 175px;
+  max-width: 200px;
+  position: relative;
+  
+}
+.card-image{
+  display: block;
+  border-radius: 9px;
+  width: 100%;
+  max-height: 230px;
+}
+.rating{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.rating-info{
+  display: inline-block;
+}
+.star-image{
+  width: 18px;
+}
+.card-title{
+
+}
+.card-price{
+  margin-top: auto;
+}
+.card-badge{
+  position: absolute;
+    top: 6px;
+    left: 6px;
+    background-color: white;
+    padding: 5px 7px;
+    border-radius: 2px;
+    font-size: 10px;
+}
